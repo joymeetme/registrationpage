@@ -1,4 +1,5 @@
 *{
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +15,17 @@ body{
     background-position:center;
     position: absolute;
 }
-
+.intuit-logo{
+    display:block;
+    margin: auto;
+}
+.intuit-logos{
+    justify-content: center;
+    display:flex;
+}
+.intuit-icon{
+    width: 23px;
+}
 .container{
     width: 400px;
     max-width: 400px;
