@@ -1,34 +1,75 @@
-*
-{
-	margin: 0;
-	padding: 0;
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body
-{
-	 background-color: #f1f3f4;
-	 font-family:sans-serif;
+
+body{
+
+    height: 100vh;
+    width:100%;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    position: absolute;
 }
-.top-nav-bar
-{
-	height: 57px;
-	top:0;
-	position:static;
-	margin-bottom: 20px;
-	border-bottom:  3px solid green;
-	z-index: 2;
+.intuit-logo{
+    display:block;
+    margin: auto;
 }
-.menu-bar
-{
-	width: 40%;
-	height: 47px;
-	float: right;
+.intuit-logos{
+    justify-content: center;
+    display:flex;
 }
-.menu-bar ul
-{
-	display: inline-flex;
-	float:right;
+.intuit-icon{
+    width: 23px;
 }
-.menu-bar ul li
-{
+.container{
+    width: 400px;
+    max-width: 400px;
+    height: 100%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    position:relative;
+    margin: 5px auto;
+    
+    padding: 2rem;
+
+    border-radius: var(--border-radius);
+    background-color:#fff ;
+   
 
 }
+h1 ,h2 , p{
+    text-align: center;
+    margin:10px;
+}
+
+
+
+a{
+    text-decoration: none;
+
+    }
+    .form input{
+       font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-weight: normal;
+        width:100%;
+        line-height: 24px;
+        margin: 7px 0 15px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 14px;
+
+    }
+
+    .btn{
+        color:#fff;
+         background-color:rgb(57, 124, 238);
+         line-height:40px;
+         width: 100%;
+         border-radius: 5px;
+         
+
+    }
